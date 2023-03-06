@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: GolosText;
   font-display: swap;
@@ -311,9 +313,11 @@ body {
 
 .welcom__img {
   position: absolute;
-  top: 235px;
-  left: auto;
-  right: auto;
+  top: 252%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   z-index: -1;
 }
 
@@ -642,12 +646,6 @@ body {
 
   .technology__description {
     font-size: calc(20px + 25 * (100vw - 320px) / 860);
-  }
-}
-
-@media (max-width: 67.31em) {
-  .welcom__img {
-    top: calc(130px + 105 * (100vw - 320px) / 860);
   }
 }
 
