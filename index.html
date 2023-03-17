@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20230306200546">
+  <link rel="stylesheet" href="css/style.css">
   <title>Nothing Ear</title>
 </head>
 <body>
@@ -19,8 +19,8 @@
           <li class="menu__item"><a class="menu__link" href="#social">социальные сети</a></li>
         </ul>
       </nav>
-      <button type="button" class="menu-icon" data-burger>
-        <div class="menu-icon__line"></div>
+      <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false">
+        <span class="burger__line"></span>
       </button>
     </div>
   </div>
@@ -32,7 +32,7 @@
           <h1 class="welcom__title">Nothing Ear</h1>
           <h3 class="welcom__description">Беспроводные наушники-вкладыши с активным шумоподавлением, которые подарят чистейший
             звук</h3>
-          <picture><source srcset="img/welcom.webp" type="image/webp"><img class="welcom__img" src="img/welcom.png" alt="Беспроводные наушники Ear"></picture>
+          <img class="welcom__img" src="img/welcom.png" alt="Беспроводные наушники Ear">
         </div>
       </div>
     </section>
@@ -41,7 +41,7 @@
       <div class="container">
         <div class="card__inner card__background--white">
           <h2 class="title">Наушники Ear White</h2>
-          <picture><source srcset="img/white-item.webp" type="image/webp"><img class="card__img" src="img/white-item.png" alt="Беспроводные белые наушники Ear"></picture>
+          <img class="card__img" src="img/white-item.png" alt="Беспроводные белые наушники Ear">
           <div>
             <a class="btn-buy btn-buy--small" href="#!">купить</a>
           </div>
@@ -53,7 +53,7 @@
       <div class="container">
         <div class="card__inner card__background--black">
           <h2 class="title">Наушники Ear Black</h2>
-          <picture><source srcset="img/black-item.webp" type="image/webp"><img class="card__img" src="img/black-item.png" alt="Беспроводные черные наушники Ear"></picture>
+          <img class="card__img" src="img/black-item.png" alt="Беспроводные черные наушники Ear">
           <a class="btn-buy btn-buy--small" href="#!">купить</a>
         </div>
       </div>
@@ -155,6 +155,6 @@
     </div>
   </div>
 </footer>
-  <script src="js/app.min.js?_v=20230306200546"></script>
+  <script src="js/app.min.js"></script>
 </body>
 </html>
